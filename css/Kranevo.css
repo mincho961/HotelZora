@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -110,11 +112,9 @@ footer {
     background-color: #1E5631;
     padding: 1rem 0;
     text-align: center;
-    
 }
 
 .footer .container {
-    
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,25 +166,79 @@ footer {
   background: #3B5998;
   color: white;
 }
-.about-box{
+.h1-kranevo{
     display: flex;
-    background-color: #93C572;
-    width: 80%;
-    height: 80vh;
-    padding: 20px;
-    box-sizing: border-box;
-    align-items: center;
-    text-align: center;
-    font-style: italic;
-    font-size: 2rem;
+    justify-content: center;
+
 }
-.about-container{
+#top-p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+#top-h1{
+    font-size: 3rem;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+.balchik-box{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 320px;
+    max-width: 40rem;
+    background-color: #93C572;
+    box-sizing: border-box;
+    padding: 0 1rem;
+}
+.balchik-text{
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.lower-container{
+    margin: 3rem 0;
     display: flex;
     justify-content: center;
 }
+.Kranevo-box{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 320px;
+    max-width: 40rem;
+    background-color: #93C572;
+    box-sizing: border-box;
+    padding: 0 1rem;
+}
 @media (max-width: 768px) {
-   .about-box{
-    font-size: 1rem;
-    font-family:'Times New Roman', Times, serif;
-   }
+    .box-container {
+        flex-direction: column; 
+        align-items: center; 
+        margin: 0 0;
+    }
+    
+    .balchik-box{
+        width: 100%; 
+        max-width: none; 
+        margin-bottom: 3rem; 
+        height: 400px;
+    }
+    .Kranevo-box {
+        width: 100%; 
+        max-width: none; 
+        margin-bottom: 1rem; 
+    }
+}
+
+.lower-container {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
 }
